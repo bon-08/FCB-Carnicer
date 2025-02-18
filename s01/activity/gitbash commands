@@ -1,0 +1,249 @@
+gitbash commands
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git push origin master
+The authenticity of host 'github.com (20.205.243.166)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,20.205.243.166' (ECDSA) to the list of known hosts.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 358 bytes | 32.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To github.com:bon-08/FCB-Carnicer.git
+ * [new branch]      master -> master
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git add .
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git commit -m "added date"
+[master b7f1b66] added date
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 430 bytes | 47.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To github.com:bon-08/FCB-Carnicer.git
+   831a04e..b7f1b66  master -> master
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git add .
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git add .
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git commit -m "activity"
+[master d68999e] activity
+ 1 file changed, 1 insertion(+)
+ create mode 100644 s01/activity/aboutme.txt
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 376 bytes | 13.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To github.com:bon-08/FCB-Carnicer.git
+   b7f1b66..d68999e  master -> master
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git add .
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git commit -m "added name"
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git commit -m "name"
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git add .
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git commit -m "motivation"
+[master a522d11] motivation
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+ rewrite s01/activity/aboutme.txt (100%)
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 631 bytes | 70.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To github.com:bon-08/FCB-Carnicer.git
+   d68999e..a522d11  master -> master
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git add .
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git commit -m "added folder"
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ gid add .
+bash: gid: command not found
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git add .
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git commit -m "name"
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git push origin master
+Everything up-to-date
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git add .
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   open house/motivation
+
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   open house/motivation
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        open house/experience
+
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git add .
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git commit -m "experience"
+[master 7a3b084] experience
+ 2 files changed, 11 insertions(+)
+ create mode 100644 open house/experience
+ create mode 100644 open house/motivation
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git push origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.21 KiB | 177.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:bon-08/FCB-Carnicer.git
+   a522d11..7a3b084  master -> master
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git add .
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git commit -m "name"
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git push origin master
+
+Everything up-to-date
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git add .
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git commit -m "name"
+[master d1465ca] name
+ 1 file changed, 4 insertions(+)
+ create mode 100644 s01/activity/name
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git push origin master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 459 bytes | 57.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To github.com:bon-08/FCB-Carnicer.git
+   7a3b084..d1465ca  master -> master
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git add .
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git commit -m "editing"
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ git push origin master
+Everything up-to-date
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$ ^C
+
+User@DESKTOP-JG9S3EI MINGW64 ~/OneDrive/Documents/FCB (master)
+$
